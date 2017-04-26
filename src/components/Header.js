@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-export default const () => {
+const Header = () => {
 	return (
-		<div class="thumbnail">
-			<img src=""
-		</div>
+			<img src="../images/bg.jpg" className="header-image" />
 	)
 }
+
+export default Header;
